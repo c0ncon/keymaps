@@ -6,7 +6,8 @@
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
                                   SONG(COLEMAK_SOUND), \
-                                  SONG(DVORAK_SOUND) \
+                                  SONG(DVORAK_SOUND), \
+                                  SONG(WORKMAN_SOUND) \
                                 }
 #endif
 
@@ -35,3 +36,5 @@
 
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
+
+// #define RGBLIGHT_ANIMATIONS
